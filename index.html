@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
   <body>
+    <div id="preloader">
+      <div class="lds-hourglass"></div>
+    </div>
     <header>
       <div class="empty"></div>
       <div class="logo-container">
@@ -53,5 +56,9 @@
       </div>
       <p>THANK YOU<span>:)</span></p>
     </div>
+
+    <script>
+      document.querySelector("#preloader").remove();
+    </script>
   </body>
 </html>
