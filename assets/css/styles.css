@@ -201,23 +201,27 @@ img.nft-vector {
   }
 }
 
-.social-icons a:hover:before {
-  -webkit-transform: scale(0);
-          transform: scale(0);
-  -webkit-transition: all 265ms ease-in;
-  transition: all 265ms ease-in;
+@media screen and (min-width: 768px) {
+  .social-icons a:hover:before {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    -webkit-transition: all 265ms ease-in;
+    transition: all 265ms ease-in;
+  }
 }
 
-.social-icons a:hover i {
-  transform: scale(2.2);
-  -ms-transform: scale(2.2);
-  -webkit-transform: scale(2.2);
-  color: #0a8df9;
-  background: -webkit-linear-gradient(45deg, #0a8df9, #fb2525);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-transition: all 265ms ease-in;
-  transition: all 265ms ease-in;
+@media screen and (min-width: 768px) {
+  .social-icons a:hover i {
+    transform: scale(2.2);
+    -ms-transform: scale(2.2);
+    -webkit-transform: scale(2.2);
+    color: #0a8df9;
+    background: -webkit-linear-gradient(45deg, #0a8df9, #fb2525);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-transition: all 265ms ease-in;
+    transition: all 265ms ease-in;
+  }
 }
 
 .qr-container {
