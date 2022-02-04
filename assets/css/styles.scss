@@ -60,14 +60,13 @@ header {
 
 img.nft-vector {
   width: 100%;
-  max-width: 500px;
   border: solid 2px;
   border-bottom-color: #ffe;
   border-left-color: #eed;
   border-right-color: #eed;
   border-top-color: #ccb;
   max-height: 100%;
-  max-width: 100%;
+  max-width: 150px;
 }
 
 .frame {
@@ -82,12 +81,12 @@ img.nft-vector {
     0 5px 10px 5px rgba(0, 0, 0, 0.25);
   box-sizing: border-box;
   display: inline-block;
-  margin: 3rem auto;
+  margin: 1rem auto 2rem;
   position: relative;
   text-align: center;
 
   @media screen and (min-width: 490px) {
-    height: 25vh;
+    // height: 25vh;
   }
 
   &:before {
@@ -125,7 +124,6 @@ img.nft-vector {
 .social-icons {
   padding: 0;
   list-style: none;
-
   display: flex;
   justify-content: flex-end;
 
@@ -202,7 +200,7 @@ img.nft-vector {
   text-align: center;
 
   .qr {
-    max-width: 130px;
+    max-width: 218px;
   }
 }
 
@@ -212,15 +210,21 @@ img.nft-vector {
     display: flex;
     align-items: center;
     justify-content: center;
+    top: 1px;
   }
 
   h1 {
-    font-size: 5vw;
+    font-size: 2.5rem;
     font-weight: 900;
     background-color: #000;
     color: $bg;
     display: block;
     padding: 0.5em;
+    text-align: center;
+
+    @media screen and (max-width: 575px) {
+      font-size: 1.5rem;
+    }
   }
 
   h1:nth-child(2) {
