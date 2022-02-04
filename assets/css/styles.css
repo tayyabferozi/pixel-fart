@@ -228,6 +228,10 @@ img.nft-vector {
   text-align: center;
 }
 
+.qr-container .qr {
+  max-width: 130px;
+}
+
 .fancy-text-container .text-box {
   position: relative;
   display: -webkit-box;
@@ -242,7 +246,7 @@ img.nft-vector {
 }
 
 .fancy-text-container h1 {
-  font-size: 8vw;
+  font-size: 5vw;
   font-weight: 900;
   background-color: #000;
   color: #f2f9fe;
